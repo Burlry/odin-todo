@@ -1,0 +1,25 @@
+#project-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#project-holder * {
+    width: 200px;
+    height: 600px;
+}
+
+.to-do-item {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .to-do-item summary {
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
